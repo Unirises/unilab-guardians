@@ -1,0 +1,612 @@
+@font-face {
+    font-family: "PMedium";
+    src: url("../fonts/Poppins-Medium.ttf");
+    src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PMediumItalic";
+    src: url("../fonts/Poppins-MediumItalic.ttf");
+    src: url("../fonts/Poppins-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PSemiBold";
+    src: url("../fonts/Poppins-SemiBold.ttf");
+    src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ROBOTOBold";
+    src: url("../fonts/Roboto-Bold.ttf");
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/bg/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body {
+    background-color: transparent;
+}
+
+* {
+    cursor: url("../img/arrow.png"), auto;
+}
+
+
+/*1440 size laptop*/
+
+.healthcare{
+    position: absolute;
+    margin: 0 auto;
+    right: 12px;
+    bottom: 0;
+    color: white;
+    font-family: 'PMedium';
+}
+.thankyou_note{
+    color: white;
+    font-size: 19pt;
+    text-align: center;
+    font-family: 'PSemiBold';
+}
+
+.frame_container {
+    height: 75%;
+    position: relative;
+    width: 80%;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    background-image: url("../img/frame/f2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.congrats {
+    font-family: "ROBOTOBold";
+}
+
+.totalScore {
+    font-family: "ROBOTOBold";
+}
+
+.thank_you {
+    font-family: "PSemiBold";
+    font-size: 40pt;
+    color: white;
+}
+
+.centerVH {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.game_name {
+    width: 40%;
+}
+
+.sounds {
+    width: 35%;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(27, 27, 27, 0.5));
+}
+
+.sounds_margin {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 1.5%;
+    left: 1.5%;
+}
+
+.wU_size {
+    width: 15%;
+    height: 15%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.j_size {
+    width: 10%;
+    height: 10%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.products_size {
+    width: 25%;
+}
+
+.wb_frame_size {
+    width: 10%;
+}
+
+.wb_2_frame_size {
+    width: 11%;
+}
+
+.wb_xs_frame_size {
+    width: 8%;
+}
+
+.wb_s_frame_size {
+    width: 13%;
+}
+
+.wb_lg_frame_size {
+    width: 35%;
+}
+
+.wb_lg_2_frame_size {
+    width: 50%;
+}
+
+.wb_lg_12_frame_size {
+    width: 90px;
+    height: 80px;
+}
+
+.wb_lg_13_frame_size {
+    width: 45%;
+}
+
+.wb_lg_14_frame_size {
+    width: 90px;
+    height: 80px;
+}
+
+.wb_lg_3_frame_size {
+    width: 35%;
+}
+
+.wb_md_frame_size {
+    width: 15%;
+}
+
+.wb_m2_frame_size {
+    width: 18%;
+}
+
+.custom_btn {
+    background-image: url("../img/btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #d4b981;
+    width: 200px;
+    font-size: 25pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "PSemiBold";
+}
+
+.c_text {
+    font-size: 13pt;
+    text-align: left;
+    margin-left: -60px;
+}
+
+.custom_s_btn {
+    background-image: url("../img/btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #d4b981;
+    width: 200px;
+    font-size: 18pt;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    font-family: "PSemiBold";
+}
+
+.custom_xs_btn {
+    background-image: url("../img/btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #d4b981;
+    width: 130px;
+    font-size: 16pt;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    font-family: "PSemiBold";
+}
+
+.btn_margin {
+    position: absolute;
+    bottom: 13%;
+    left: 0;
+    right: 0;
+}
+
+.p4-des {
+    font-size: 16pt;
+    margin: 2% 15% 0% 15%;
+    color: white;
+    text-align: center;
+    font-family: "PMedium";
+}
+
+.header_text {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -30px;
+    font-family: "PSemiBold";
+}
+
+.dear_doc {
+    font-family: "PSemiBold";
+    font-size: 19pt;
+}
+
+.margin_p5 {
+    margin: 2.5% 10% 10% 10%;
+}
+
+.red_btn {
+    background-image: url("../img/red_btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    color: #fcb1be;
+    font-family: "PSemiBold";
+    text-align: center;
+    font-size: 19pt;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
+}
+
+.bonus_text {
+    color: white;
+    font-size: 20pt;
+    margin-left: -40%;
+}
+
+.coxid_f {
+    width: 60%;
+    margin-left: 40%;
+}
+
+
+/* scoring */
+
+.left_bg_score {
+    background: #621e1d;
+    padding: 2.5px 20px 2.5px 20px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.bg_scoring {
+    background: #b91d2a;
+    padding: 5px;
+    font-size: 14pt;
+    border-radius: 80px;
+    margin-top: 10%;
+    font-family: "ROBOTOBold";
+}
+
+.right_bg_score {
+    padding: 0px 15px 0px 5px;
+}
+
+.left_bg_score_green {
+    background: #184226;
+    padding: 2.5px 20px 2.5px 20px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.bg_scoring_green {
+    background: #2c7e37;
+    padding: 5px;
+    font-size:13pt;
+    border-radius: 80px;
+    margin-top: 10%;
+}
+
+.right_bg_score_green {
+    padding: 0px 15px 0px 5px;
+}
+
+
+/* end scoring */
+
+.green_btn {
+    background-image: url("../img/green_btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    color: #fcb1be;
+    font-family: "PSemiBold";
+    text-align: center;
+    font-size: 19pt;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
+}
+
+.header_gfi_text {
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+    font-family: "PMedium";
+    line-height: 25px;
+}
+
+.guardians_text {
+    font-size: 50px;
+}
+
+.fi_text {
+    font-size: 35px;
+}
+
+.gfi_margin {
+    margin: 5% 10% 10% 10%;
+    font-size: 17pt;
+    color: white;
+    font-family: "PSemiBold";
+}
+
+.mechanics_gfi_margin {
+    margin: 3% 15% 15% 15%;
+    font-size: 23pt;
+    color: white;
+    font-family: "PSemiBold";
+}
+
+.gfi_g_margin {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 3%;
+}
+
+
+/*Custom Margin*/
+
+.mt_5 {
+    margin-top: 5%;
+}
+
+.mr_10 {
+    margin-right: 10%;
+}
+
+.mr_15 {
+    margin-right: 15%;
+}
+
+.mr_5 {
+    margin-right: 5%;
+}
+
+.mr_-5 {
+    margin-right: 0.5%;
+}
+
+.mt_9 {
+    margin-top: 9%;
+}
+
+.mt__5 {
+    margin-top: -5%;
+}
+
+.mt_13 {
+    margin-top: 13%;
+}
+
+.mt_4 {
+    margin-top: 4%;
+}
+
+.mt__15 {
+    margin-top: -15%;
+}
+
+.mt_2_5 {
+    margin-top: 2.5%;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.shadow_white {
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5));
+}
+
+.score_text {
+    font-size: 50pt;
+    color: white;
+    font-family: "PMedium";
+}
+
+.coxidGif {
+    margin-left: -15%;
+    margin-top: 25%;
+}
+
+.gfp_text {
+    line-height: 20px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+
+/* End */
+
+
+/* Media Query 1366 */
+
+@media only screen and (max-width: 1366px) {
+    .gametitle {
+        width: 60%;
+    }
+    .westmont {
+        width: 25%;
+    }
+    .custom_btn {
+        width: 200px;
+        font-size: 20pt;
+    }
+    .game_name {
+        width: 35%;
+    }
+    .products_size {
+        width: 20%;
+    }
+    .p4-des {
+        font-size: 14pt;
+    }
+    .custom_s_btn {
+        width: 200px;
+        font-size: 16pt;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .wb_lg_frame_size {
+        width: 28%;
+    }
+    .gfi_margin {
+        font-size: 15pt;
+    }
+    .wb_md_frame_size {
+        width: 12.5%;
+    }
+    .mechanics_gfi_margin {
+        font-size: 17pt;
+    }
+    .wb_m2_frame_size {
+        width: 15%;
+    }
+    .c_text {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .gfp_text {
+        line-height: 20px;
+        margin-left: 00px;
+    }
+    .wb_frame_size {
+        width: 8%;
+    }
+    .wb_s_frame_size {
+        width: 11%;
+    }
+    .custom_xs_btn {
+        font-size: 14pt;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .score_text {
+        font-size: 45pt;
+    }
+    .wb_xs_frame_size {
+        width: 6.5%;
+    }
+    .sounds {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .gametitle {
+        width: 60%;
+    }
+    .westmont {
+        width: 25%;
+    }
+    .wb_lg_2_frame_size {
+        width: 15%;
+    }
+    .custom_btn {
+        width: 200px;
+        font-size: 20pt;
+    }
+    .game_name {
+        width: 35%;
+    }
+    .products_size {
+        width: 20%;
+    }
+    .p4-des {
+        font-size: 12pt;
+    }
+    .custom_s_btn {
+        width: 200px;
+        font-size: 16pt;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .wb_lg_frame_size {
+        width: 28%;
+    }
+    .gfi_margin {
+        font-size: 15pt;
+    }
+    .wb_md_frame_size {
+        width: 12.5%;
+    }
+    .mechanics_gfi_margin {
+        font-size: 17pt;
+    }
+    .wb_m2_frame_size {
+        width: 15%;
+    }
+    .c_text {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .gfp_text {
+        line-height: 20px;
+        margin-left: 00px;
+    }
+    .wb_frame_size {
+        width: 8%;
+    }
+    .wb_s_frame_size {
+        width: 11%;
+    }
+    .custom_xs_btn {
+        font-size: 14pt;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .score_text {
+        font-size: 45pt;
+    }
+    .wb_xs_frame_size {
+        width: 6.5%;
+    }
+    .sounds {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .wb_lg_frame_size {
+        width: 30%;
+    }
+    .wb_frame_size {
+        width: 8%;
+    }
+    .wb_s_frame_size {
+        width: 11%;
+    }
+    .wb_m2_frame_size {
+        width: 16%;
+    }
+}
